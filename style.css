@@ -30,7 +30,7 @@
   color: #FFFFFF;
 }
 
-.h1{
+.title{
   left: 44px;
   top: 84px;
   font-family: Roboto, Arial;
@@ -140,7 +140,7 @@
   color: #0093B4;
 }
 
-.empty-rectangle {
+.signap__empty-rectangle {
   position: absolute;
   right: 0;
   top: 0;
