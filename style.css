@@ -1,3 +1,4 @@
+
 .button{
   padding:5px 15px;
   border:1px solid black;
@@ -20,14 +21,14 @@
   height: 342px;
   border-radius: 20px;
 
- }
+}
 
 .form{
   width: 334px;
   height: 342px;
   left:0;
   color: #FFFFFF;
- }
+}
 
 .h1{
   left: 44px;
@@ -78,7 +79,7 @@
   top: 147px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
- }
+}
 
 .input__item3 {
   height: 28px;
@@ -121,11 +122,7 @@
   text-align: center;
 }
 
-.checkbox__box{
-  background-color: #DBDBDB;
-}
-
-.checkbox__text{
+.checkbox{
   font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 400;
