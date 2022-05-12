@@ -19,7 +19,7 @@
 .signup{
   font-family: Roboto, Arial;
   font-size: 12px;
-  width: 668px;
+  width: 688px;
   height: 342px;
   display: flex;
   flex-direction: row;
@@ -27,103 +27,118 @@
 }
 
 .signup__form{
-  width: 334px;
-  height: 318px;
+  width: 344px;
+  height: 342px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   align-items: center;
   background-color: #FFFFFF;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  padding: 1em 0;
+  gap: 8px;
 }
 
 .signupForm__header{
-  margin-top: 1em;
-
+  margin-top: 34px;
 }
 
 .header{
   font-size: 3em;
   align-items: center;
-
-
+  font-weight: 500;
+  line-height: 42px;
 }
 
 .signupForm__send-Out{
-  margin-top: 1em ;
+  margin-top: 8px ;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.link_noDecoration{
+  text-decoration: none;
+  color: #000000;
+}
+
+.link_withDecoration{
+  color: #0093B4;
 }
 
 .fields{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: space-between;
+
 }
 .field{
+  background-color: #DBDBDB;
   border-radius: 20px;
   margin-bottom: 8px;
-  background-color: #DBDBDB;
+  margin-left: 44px;
+  padding: 0;
   border: 0;
   width: 256px;
   height: 28px;
 }
 
-.field_leftHalf {
-  position: relative;
-  right: 64px;
+
+.halfField {
+  background-color: #DBDBDB;
+  margin-bottom: 8px;
+  padding: 0;
+  border: 0;
+  height: 28px;
+  width: 124px;
+}
+
+.halfField_left {
   border-radius: 20px 0 0 20px;
-  margin-bottom: -16px;
-  background-color: #DBDBDB;
-  border: 0;
-  width: 120px;
-  height: 28px;
+  margin-right: 8px;
+  margin-left: 44px;
 }
 
-.field_rightHalf {
-  position: relative;
-  left: 64px;
-  bottom: 30px;
+.halfField_right{
   border-radius: 0 20px 20px 0;
-  margin-top: 16px;
-  margin-bottom: -20px;
-  background-color: #DBDBDB;
-  border: 0;
-  width: 120px;
-  height: 28px;
 }
 
+.signupForm__button{
+  /*width: 256px;*/
+  /*height: 23px;*/
+  /*display: flex;*/
+  /*align-self: top;*/
+  margin-top: -16px
+}
 
 .button{
   background: #EE171F;
   width: 256px;
-  height: 23px;
+  height: 28px;
   border-radius: 20px;
   text-align: center;
   font-family: Roboto, Arial;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.button__text{
+  text-decoration: none;
   color: white;
-  font-size: 14px;
-  padding-top: 5px;
+  align-self: center;
 }
 
 .signupForm__checkbox{
 }
 
 .signup__EmptyRectangle {
-  width: 334px;
+  width: 344px;
   height: 342px;
   background-color: #C4C4C4;
   border-radius: 0 20px 20px 0;
 }
 
-._noDecoration{
-  text-decoration: none;
-  color: #000000;
-}
 
-._withDecoration{
-  color: #0093B4;
-}
 
 
 
