@@ -1,21 +1,144 @@
+/*.button{*/
+/*  padding:5px 15px;*/
+/*  border:1px solid black;*/
+/*  border-radius: 20px;*/
+/*  background: aliceblue;*/
+/*  display: inline-block;*/
+/*  text-align: center;*/
+/*  min-width: 150px;*/
+/*}*/
 
-.button{
-  padding:5px 15px;
-  border:1px solid black;
-  border-radius: 20px;
-  background: aliceblue;
-  display: inline-block;
-  text-align: center;
-  min-width: 150px;
+/*.button--full{*/
+/*  display: block;*/
+/*}*/
+
+*{
+
 }
-
-.button--full{
-  display: block;
-}
-
-
 
 .signup{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  width: 668px;
+  height: 342px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.signup__form{
+  width: 334px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 1em 0;
+}
+
+.signupForm__header{
+  margin-top: 1em;
+
+}
+
+.header{
+  font-size: 3em;
+  align-items: center;
+
+
+}
+
+.signupForm__send-Out{
+  margin-top: 1em ;
+}
+
+.fields{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field{
+  border-radius: 20px;
+  margin-bottom: 8px;
+  background-color: #DBDBDB;
+  border: 0;
+  width: 256px;
+  height: 28px;
+}
+
+.field_leftHalf {
+  position: relative;
+  right: 64px;
+  border-radius: 20px 0 0 20px;
+  margin-bottom: -16px;
+  background-color: #DBDBDB;
+  border: 0;
+  width: 120px;
+  height: 28px;
+}
+
+.field_rightHalf {
+  position: relative;
+  left: 64px;
+  bottom: 30px;
+  border-radius: 0 20px 20px 0;
+  margin-top: 16px;
+  margin-bottom: -20px;
+  background-color: #DBDBDB;
+  border: 0;
+  width: 120px;
+  height: 28px;
+}
+
+
+.button{
+  background: #EE171F;
+  width: 256px;
+  height: 23px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.signupForm__checkbox{
+}
+
+.signup__EmptyRectangle {
+  width: 334px;
+  height: 342px;
+  background-color: #C4C4C4;
+  border-radius: 0 20px 20px 0;
+}
+
+._noDecoration{
+  text-decoration: none;
+  color: #000000;
+}
+
+._withDecoration{
+  color: #0093B4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.signup{
   position: relative;
   width: 668px;
   height: 342px;
@@ -140,7 +263,7 @@
   color: #0093B4;
 }
 
-.signap__empty-rectangle {
+.signup__empty-rectangle {
   position: absolute;
   right: 0;
   top: 0;
@@ -150,3 +273,4 @@
   background-color: #C4C4C4;
   border-radius: 0 20px 20px 0;
 }
+*/
